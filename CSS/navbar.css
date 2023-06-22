@@ -1,0 +1,200 @@
+/* Navbar general mayor a 551px */
+.navbar {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    color: #fff; /* Color de texto de la barra de navegación */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos dentro del navbar */
+    
+  }
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 700px; /* Ancho máximo del navbar */
+    margin: 0 auto; /* Centra el navbar en el contenedor */
+  }
+  
+  .menu li {
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+
+  }
+  li:hover {
+    background-color: rgb(92, 91, 91);
+  }
+  
+  .menu li a {
+    color: #ffffff; /* Color de texto de los elementos de navegación */
+    text-decoration: none;
+  }
+  
+  .navbar-logo {
+    /* flex: 1; */
+    text-align: center;
+  }
+  
+  .letraicon{
+    font-family: 'Silkscreen', cursive;
+  }
+
+  .icono-personalizado {
+    width: 30px;
+    height: 30px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom: 5px;
+  }
+
+ /* Icono menu */
+.icon-button{
+  display: none;
+}
+.logocord{
+  display: none;
+}
+/* Desaparecer gifs */
+.gif {
+ display: none;
+}
+.gif2{
+  display: none;
+}
+.gif3{
+  display: none;
+ }
+ .gif4{
+  display: none;
+ }
+ 
+ 
+
+/* Media query para pantallas pequeñas */
+@media  screen and (max-width: 551px) {
+  .navbar{
+    /* display: none; */
+    flex-direction: column ;
+    justify-content: center;
+  }
+  li{
+    margin-left: -200%;
+    /* background-color: #12ad1f; */
+    border-bottom: 5px solid rgb(70, 60, 60);
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+  }
+  /* animacion hover */
+  li:hover {
+    background-color: rgb(133, 133, 133);
+  }
+  .interno{
+    margin-left: 140px;
+  }
+  .menu {
+    /* height: 50%; */
+    color: #fc15f0; /* Color de texto de los elementos de navegación */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    line-height: 40px;
+    z-index: 40px;
+    flex-direction: column ;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .menu li  {
+    margin-right: -100px;
+    /* margin-bottom: auto; */
+    }
+ 
+ /* Da color al texto del menu hamburguesa */
+  .menu li a {
+    /* background-color: #7d9900;  */
+    color: #ffffff; /* Color de texto de los elementos de navegación */
+    text-decoration: none;
+    
+  }
+  .aparecelogo{
+    display: none;
+  }
+  /* Editar colo texto nombre logo */
+  .logocord{
+    display: inline-block;
+    position:static;
+    top: 4px;
+    left: 10px;
+    color: #f8f8f8;
+    text-decoration: none;
+
+  }
+  
+  .icon-button{
+    display: inline-block;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+  }
+  .elemento {
+    display: block;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  /* Imagen original del boton menu hamburguesa */
+  .imagenBoton {
+    position: absolute; /*se agrego*/
+    width: 40px;
+    height: 40px;
+    background-image: url("../Imagenes/Iconos/MenuBoton32px.ico");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  /* Cambio de imagen menu hamburguesa */
+  .myButton {
+    position: absolute; /*se agrego*/
+    width: 40px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    text-indent: -9999px; /* Oculta el texto del botón */
+  }
+  /* Gifs en el navbar */
+  .gif {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: -5px;
+    right: 10px;
+  }
+  .gif2 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: -5px;
+    right:10px;
+  }
+  .gif3 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: -5px;
+    right:10px;
+  }
+  .gif4 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: -5px;
+    right:10px;
+  }
+}

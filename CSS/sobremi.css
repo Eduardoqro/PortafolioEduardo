@@ -1,0 +1,57 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+
+.marco{
+    margin: 20px;
+    border: 1px solid red; /* Cambia "red" por el color que desees */
+    padding: 10px; 
+
+}
+h2{
+    font-family: 'Chakra Petch', sans-serif;
+    border: 1px solid red; /* Cambia "red" por el color que desees */
+    margin-right:78% ;
+    border-right:5px solid black;
+    border-bottom:5px solid black ;
+
+}
+
+.gifacerca{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position:relative;
+    right: -10px;
+    top: -10px;
+}
+.textnombre{
+    display: flex;
+    justify-content:left;
+    font-size: 25px;
+    font-family: 'Space Mono', monospace;
+  
+}
+.textomi{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Jura', sans-serif;
+    text-align:justify;
+
+}
+.testexp{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Jura', sans-serif
+}
+
+.testproy{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Jura', sans-serif
+}

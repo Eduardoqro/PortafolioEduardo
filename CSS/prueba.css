@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  color: #fff; /* Color de texto de la barra de navegación */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los elementos dentro del navbar */
+  padding: 10px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 700px; /* Ancho máximo del navbar */
+  margin: 0 auto; /* Centra el navbar en el contenedor */
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  color: #fff; /* Color de texto de los elementos de navegación */
+  text-decoration: none;
+}
+
+.navbar-logo {
+  /* flex: 1; */
+  text-align: center;
+}
+
+.letraicon{
+  font-family: 'Silkscreen', cursive;
+}
+
+.icono-personalizado {
+  width: 30px;
+  height: 30px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom: 5px;
+}
