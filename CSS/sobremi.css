@@ -2,21 +2,22 @@
   @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); */
+
 
 
 .marco{
     margin: 20px;
-    border: 1px solid red; /* Cambia "red" por el color que desees */
+    /* border: 1px solid red; */
     padding: 10px; 
 
 }
 h2{
     font-family: 'Chakra Petch', sans-serif;
-    border: 1px solid red; /* Cambia "red" por el color que desees */
+    /* border: 1px solid red;  */
     margin-right:78% ;
     border-right:5px solid black;
     border-bottom:5px solid black ;
-
 }
 
 .gifacerca{
@@ -32,7 +33,6 @@ h2{
     justify-content:left;
     font-size: 25px;
     font-family: 'Space Mono', monospace;
-  
 }
 .textomi{
     display: flex;
@@ -54,4 +54,54 @@ h2{
     justify-content: center;
     font-size: 25px;
     font-family: 'Jura', sans-serif
+}
+
+.tituloproys{
+    font-family: 'Space Mono', monospace;
+    font-size: 22px;
+}
+
+/* .textproys{
+    font-family: 'Share Tech Mono', monospace;
+} */
+@media  screen and (max-width: 551px){
+    h2{
+        font-family: 'Chakra Petch', sans-serif;
+        border: 1px solid red; /* Cambia "red" por el color que desees */
+        margin-right:25% ;
+        border-right:5px solid black;
+        border-bottom:5px solid black ;
+    }
+
+    .textnombre{
+        display: flex;
+        justify-content:center;
+        font-size: 24px;
+        font-family: 'Space Mono', monospace;
+    }
+
+    .textomi{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Jura', sans-serif;
+        text-align:justify;
+    
+    }
+    .testexp{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Jura', sans-serif;
+        justify-content: space-between;
+
+    }
+    
+    .testproy{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Jura', sans-serif;
+    }
+    
 }
