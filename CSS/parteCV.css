@@ -62,7 +62,7 @@
     position: relative;
     padding: 5px 10px;
     text-decoration: none;
-    color: rgb(24, 24, 24);
+    color: rgb(17, 17, 17);
     letter-spacing: 10px;
     transition: all 0.5s;
 }
@@ -139,7 +139,7 @@
   .columnV2{
    width: 300px; /* Cambia el valor según el tamaño deseado */
    height: 500px; /* Cambia el valor según el tamaño deseado */
-   background-color: #e6e6e6; /* Cambia el color según tus preferencias */
+   background-color: #ffffff; /* Cambia el color según tus preferencias */
    margin: 5px; /* Crgb(247, 24, 24)l valor según el espacio deseado entre las columnas */
    display: flex;
    justify-content: center;
@@ -153,7 +153,7 @@
   .columnV3{
   width: 295px; 
   height: 250px; 
-  background-color: #a9f87b;
+  background-color: #ffffff;
   margin:5px; 
   display: flex;
   justify-content: center;
@@ -164,7 +164,7 @@
     width: 500px; 
     height: 195px; 
     display: flex;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     flex-direction: column ;
     justify-content: center;
   }
@@ -173,7 +173,7 @@
     display: flex;
     width: 295px; 
     flex: -1;
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(255, 255, 255);
   }
 
   .pdf-container {

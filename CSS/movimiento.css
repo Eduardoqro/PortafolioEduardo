@@ -1,0 +1,26 @@
+.scroll-link {
+    display: block;
+    text-align: center;
+  }
+  
+  .scroll-link:hover {
+    text-decoration: underline;
+  }
+  
+  #area-especifica {
+    padding: 20px;
+    margin-top: 500px; /* Espacio de desplazamiento para demostración */
+  }
+  #area-especifica1 {
+    padding: 20px;
+    margin-top: 500px; /* Espacio de desplazamiento para demostración */
+  }
+  #area-especifica2 {
+    padding: 20px;
+    margin-top: 500px; /* Espacio de desplazamiento para demostración */
+  }
+  #area-especifica3 {
+    padding: 20px;
+    margin-top: 500px; /* Espacio de desplazamiento para demostración */
+  }
+  

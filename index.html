@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="../CSS/navbar.css" />
     <link rel="stylesheet" href="../CSS/sobremi.css" />
     <link rel="stylesheet" href="../CSS/parteCV.css" />
+    <link rel="stylesheet" href="../Pagina personal/CSS/movimiento.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <!--CSS-->
         <!--JavaScript-->
@@ -40,13 +41,13 @@
         <nav class="navbar">
             <h4 ><a class="logocord navbar-logo letraicon " href="#">Eduardo<img src="../Imagenes/Iconos/iconhead16x16.ico" alt="Icono del Portafolio EduardoDev" class="icono-personalizado">Dev</a></h4>
           <ul class="menu elemento "  id="elementoParaOcultar">
-            <li><a href="#"><img class="gif interno" src="../Imagenes/Gif/Perfilgif.gif" alt="GIF animado">Perfil</a></li>
-            <li><a href="#"><img class="gif2 interno" src="../Imagenes/Gif/experienciagif.gif" alt="GIF animado">Experiencia</a></li>
+            <li><a href="#area-especifica" class="scroll-link"><img class="gif interno" src="../Imagenes/Gif/Perfilgif.gif" alt="GIF animado">Perfil</a></li>
+            <li><a href="#area-especifica1" class="scroll-link"><img class="gif2 interno" src="../Imagenes/Gif/experienciagif.gif" alt="GIF animado">Experiencia</a></li>
             <div class="aparecelogo">
             <li class="navbar-logo letraicon"><a href="#">Eduardo<img  src="../Imagenes/Iconos/iconhead16x16.ico" alt="Icono del Portafolio EduardoDev" class="icono-personalizado">Dev</a></li>
             </div>
-            <li><a href="#"><img class="gif3 interno" src="../Imagenes/Gif/proyectosgif.gif" alt="GIF animado">Proyectos</a></li>
-            <li><a href="#"><img class="gif4 interno" src="../Imagenes/Gif/currimulumgif.gif" alt="GIF animado">Curriculum</a></li>
+            <li><a href="#area-especifica2" class="scroll-link"><img class="gif3 interno" src="../Imagenes/Gif/proyectosgif.gif" alt="GIF animado">Proyectos</a></li>
+            <li><a href="#area-especifica3" class="scroll-link"><img class="gif4 interno" src="../Imagenes/Gif/currimulumgif.gif" alt="GIF animado">Curriculum</a></li>
           </ul>
           <!-- <button id="toggleButton"   class="icon-button imagenBoton "  alt="boton menu">  -->
           <button id="toggleButton"   class="icon-button imagenBoton myButton " onclick="changeImage()" alt="boton menu"> 
@@ -62,19 +63,19 @@
         <div btn class="column"><div class="data-marco"><span class="btn"><img src="../Imagenes/Fotos/Foto para webV1.jpg" class="fotoperfil btn" alt="foto perfil Eduardo"></div></span></div></div>
       </div>
       <!-- Sobre mi -->
-      <div class="marco">
-        <h2>Acerca de mi <img class="gifacerca" src="../Imagenes/Gif/Perfilgif.gif" alt="GIF animado"></h2>
+      <div class="marco" id="area-especifica">
+        <h2 >Acerca de mi <img class="gifacerca" src="../Imagenes/Gif/Perfilgif.gif" alt="GIF animado"></h2>
         <p class="textnombre">Soy Eduardo Tomas Mendoza Sanchez</p>
         <p class="textomi">Ingeniero en electrónica, desarrollador Java full stack, diseñador UX y máster en ciencia de datos. <br>Mi pasión por los videojuegos, los datos y el diseño tecnológico me ha llevado a buscar nuevas <br> formas de combinar estas áreas y crear experiencias digitales cautivadoras. Si eres una empresa de <br>desarrollo de videojuegos o software, estás en el lugar adecuado. </p>
       </div>
       <!-- Experiencia -->
-      <div class="marco">
-        <h2>Experiencia <img class="gifacerca" src="../Imagenes/Gif/experienciagif.gif" alt="GIF animado"></h2>
+      <div class="marco" id="area-especifica1">
+        <h2 >Experiencia <img class="gifacerca" src="../Imagenes/Gif/experienciagif.gif" alt="GIF animado"></h2>
         <p class="textnombre">Ingeniero de Proyectos Jr.</p>
         <p class="testexp">Como Ingeniero de Proyectos Junior en Peritia Crescere, adquirí experiencia trabajando en equipo <br> para realizar pruebas y actualizaciones en estaciones de test de producción. Entregué informes <br> detallados, brindé atención al cliente y colaboré en la planificación y análisis de pruebas. <br> Mi pasión por los videojuegos y el desarrollo de software me impulsa a buscar oportunidades <br> emocionantes en esta industria. </p>
       </div>
        <!-- Proyectos -->
-       <div class="marco">
+       <div class="marco" id="area-especifica2">
         <h2>Proyectos <img class="gifacerca" src="../Imagenes/Gif/proyectosgif.gif" alt="GIF animado"></h2>
         <!-- <p class="textnombre">Ingeniero de Proyectos Jr.</p> -->
         <!-- <p class="textomi">Soy Eduardo Tomas Mendoza Sanchez, un apasionado ingeniero en electrónica,<br> desarrollador Java full stack, diseñador UX y máster en ciencia de datos. Me encanta<br> sumergirme en el fascinante mundo de los videojuegos, los datos y el diseño tecnológico.</p> -->
@@ -145,7 +146,7 @@
         </div>
       </div>
        <!-- Curriculum -->
-       <div class="marco">
+       <div class="marco" id="area-especifica3">
         <h2>Curriculum <img class="gifacerca" src="../Imagenes/Gif/currimulumgif.gif" alt="GIF animado"></h2>
         <p class="textnombre">CV y medios de contacto</p>
        <div class="containerV2">
@@ -194,6 +195,5 @@
        </div>
       <script src="../JavaScript/funcionbotones.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
 </body>
 </html>
